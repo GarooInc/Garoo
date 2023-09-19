@@ -6,6 +6,8 @@ export default {
     extend: {
       colors: {
         'garoo-blue': '#03254c',
+        'garoo-sky': '#29abe2',
+        'garoo-skylight': '#b8cfd9',
       },
     }
   },
