@@ -8,7 +8,7 @@ const ServiceIcon = ({ image, title, text }) => {
             <div className='overlay_serviceicon' >
                 <img className='image_serviceicon' src={image} alt='service'/>
             </div>
-            <h1 className='h-8 mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-m text-start'>{title}</h1>
+            <h1 className='h-12 mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-m text-start'>{title}</h1>
             <p className='mt-2 text-m leading-6 text-gray-700 text-start'>{text}</p>
         </div>
     )
