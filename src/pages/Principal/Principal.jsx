@@ -7,6 +7,7 @@ import ServiceIcon from "../../components/ServiceIcon/ServiceIcon";
 import Tittle from "../../components/Tittle/Tittle";
 import Portfolio from "../../components/Portfolio/Portfolio";
 import Footer from "../../components/Footer/Footer";
+import Stats from "../../components/Stats/Stats";
 
 
 const Principal = () => {
@@ -21,8 +22,8 @@ const Principal = () => {
                 <About/>
             </section>
             <section id='/services' className="text-center">
-            {Tittle('Services')}
-            <div className='grid grid-rows-3 grid-flow-col gap-4 mx-auto max-w-7xl px-6 lg:px-8'>
+            {Tittle('Service we provide')}
+            <div className='md:flex grid grid-rows-3 grid-flow-col gap-4 mx-auto max-w-7xl px-6 lg:px-8'>
                     <ServiceIcon image="/images/img5.svg" title="Web Design" text="We create your website from scratch, we take care of the design, the development and the maintenance of your website."/>
                     <ServiceIcon image="/images/img6.svg" title="UI/UX Design" text="We create your website from scratch, we take care of the design, the development and the maintenance of your website."/>
                     <ServiceIcon image="/images/img7.svg" title="Branding" text="We create your website from scratch, we take care of the design, the development and the maintenance of your website."/>
@@ -33,6 +34,9 @@ const Principal = () => {
             </section>
             <section id='/portfolio' className="portfolio">
                 <Portfolio/>
+            </section>
+            <section id='/contact' className="contact">
+                <h1>Contact</h1>
             </section>
             <section id='footer' className="footer">
                 <Footer />
