@@ -14,7 +14,7 @@ const stats = [
         const intervalIds = stats.map((stat, index) => {
             return setInterval(() => {
                 setCurrentValues(prevValues => {
-                    const newValue = prevValues[index] + Math.ceil(stat.value / 200); // Adjust this to control the speed
+                    const newValue = prevValues[index] + Math.ceil(stat.value / 400); // Adjust this to control the speed
                     if (newValue < stat.value) {
                         return [...prevValues.slice(0, index), newValue, ...prevValues.slice(index + 1)];
                     } else {
@@ -22,7 +22,7 @@ const stats = [
                         return [...prevValues.slice(0, index), stat.value, ...prevValues.slice(index + 1)];
                     }
                 });
-            }, 100); // Adjust this to control the speed
+            }, 200); // Adjust this to control the speed
         });
 
         return () => intervalIds.forEach(intervalId => clearInterval(intervalId));
