@@ -2,6 +2,7 @@ import buttonDark from "../ButtonDark/ButtonDark"
 import buttonNormal from "../ButtonNormal/ButtonNormal"
 import Tittle from "../Tittle/Tittle"
 
+
 const Home = () => {
   return (
     <div className="bg-white">
@@ -27,8 +28,8 @@ const Home = () => {
             Empowering Growth through Innovative E-commerce and AI Bot Solutions
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              {buttonDark("Get Started", "/about")}
-              {buttonNormal("Learn More", "https://wa.link/p8bspz")}
+              {buttonDark("Get Started", "https://wa.link/p8bspz")}
+              {buttonNormal("Learn More", "/about")}
             </div>
           </div>
         </div>
