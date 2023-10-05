@@ -28,7 +28,7 @@ const Home = () => {
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               {buttonDark("Get Started", "/about")}
-              {buttonNormal("Learn More", "/about")}
+              {buttonNormal("Learn More", "https://wa.link/p8bspz")}
             </div>
           </div>
         </div>
