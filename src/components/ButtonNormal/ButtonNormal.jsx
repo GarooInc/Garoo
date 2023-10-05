@@ -1,10 +1,12 @@
 import React from 'react';
+import { Link } from "react-scroll";
 
 const buttonNormal = (text,href) => {
     return(
-        <a href={href} className="text-sm font-semibold leading-6 text-gray-900">
-                {text} <span aria-hidden="true">→</span>
-        </a>
+        
+        <Link to={href} spy={true} smooth={true} duration={500} className="text-sm font-semibold leading-6 text-gray-900 cursor-pointer">            
+            {text}→
+        </Link>
     )
 }
 

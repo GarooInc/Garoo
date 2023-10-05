@@ -2,7 +2,6 @@ import buttonDark from "../ButtonDark/ButtonDark"
 import buttonNormal from "../ButtonNormal/ButtonNormal"
 import Tittle from "../Tittle/Tittle"
 
-
 const Home = () => {
   return (
     <div className="bg-white">
