@@ -19,7 +19,7 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
-          <img className="rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:h-full lg:w-auto" src="/images/gtworld.png" alt="" />
+          <img className="w-[48rem] max-w-none rounded-xl  shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]" src="/images/gtworld.png" alt="" />
         </div>
       </div>
     </div>
