@@ -8,7 +8,7 @@ import Tittle from "../../components/Tittle/Tittle";
 import Portfolio from "../../components/Portfolio/Portfolio";
 import Footer from "../../components/Footer/Footer";
 import { CloudArrowUpIcon, LockClosedIcon } from '@heroicons/react/20/solid'
-import LogoTestimonials from "../../components/logoTestimonials/logoTestimonials";
+import LogoTestimonials from "../../components/LogoTestimonials/LogoTestimonials";
 
 
 
