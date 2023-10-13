@@ -24,7 +24,7 @@ const LogoTestimonials = () => {
           <div className="marquee-container">
           <div className="mx-auto mt-10 flex items-center md:gap-x-20 gap-x-10 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-16 lg:mx-0 lg:max-w-none lg:grid-cols-5 marquee">
             {testimonials.map((testimonial) => (
-                <a key={testimonial.src} className="flex items-center gap-2 mb-8 mt-8 min-w-xl md:items-center mx-10 md:mx-0">
+                <a key={testimonial.src} className="flex items-center gap-2 mb-8 mt-8 min-w-xl md:items-center mx-10 md:mx-4">
                 <p className="text-garoo-sky text-center  text-xl md:text-2xl font-bold tracking-tight w-full whitespace-nowrap">{testimonial.text}</p>
                 <img
                     src={testimonial.src}
