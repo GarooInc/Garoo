@@ -6,7 +6,7 @@ const Footer = () => {
         <footer className="footer">
             <div className="footer-left">
                 <img src="/images/logo2.png" alt="Logo" className="footer-logo" />
-                <p className="footer-description">Lorem ipsum dolor sit amet consectetur. Lacus urna consectetur nunc porttitor morbi. Tristique pellentesque id nec viverra.</p>
+                <p className="footer-description">Ordinary technology made extraordinary</p>
                 <div className="flex mb-10 mt-10">
                     {/* Replace # with your social media links */}
                     <a href="#" className="footer-social">
